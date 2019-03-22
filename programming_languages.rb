@@ -5,7 +5,7 @@ def reformat_languages(languages)
     hash.each do |name, attributes|
       new_hash[name] ||= attributes
       
-    # new_has[name] = sttributes if new_hash[name] == nil
+    # new_has[name] = attributes if new_hash[name] == nil
       
       new_hash[name][:style] ||= []
       
