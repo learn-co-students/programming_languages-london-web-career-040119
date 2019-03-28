@@ -1,5 +1,3 @@
-require 'pry'
-
 def reformat_languages(languages)
   new_hash = {}
   language_names = (languages.collect {|styles, langs| langs.keys}).flatten.uniq
